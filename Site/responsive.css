@@ -1,0 +1,84 @@
+@-ms-viewport{ width: device-width;}
+@media (min-width: 1230px) {...}
+
+@media (min-width: 1022px) {...}
+
+@media (max-width: 1021px) {...}
+
+@media (min-width: 798px) {...}
+
+@media (max-width: 797px) {...}
+
+@media (max-width: 598px) {...}
+
+
+
+@media (max-width: 1230px) {
+	#areaConhec{width: 32%}
+	header div ul{width: 80%!important}
+	
+}
+
+@media (max-width: 510px) {
+	#areaConhec{width: 100%}
+}
+
+
+@media (min-width: 1022px) and (max-width: 1229px) {
+	#invest .pull-right{width:70%}
+
+	#conquer img{width: 190px;}
+}
+@media (min-width: 992px) and (max-width: 1021px) {
+	#conquer {width: 0px;}
+	#conquer img{width: 190px;}
+	#invest .pull-right{width:70%}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.logo{width: 20%}
+	header div ul{padding: 0!important; font-size: 12px; width: 75%!important; margin-top: 10px}
+	header ul li{ padding: 5px  0px!important;}
+	#areaConhec h2{font-size: 20px}
+	#areaConhec .barConhec{font-size: 12px;}
+	#areaConhec .barConhec .progress{height: 13px}
+	#invest .pull-right{ padding: 0; width: 60% ;}
+	#conquer img{width: 140px; margin-top: 15px}
+}
+
+@media (min-width: 600px) and (max-width: 798px) {
+	#invest svg{display: none}
+	#areaConhec h2{font-size: 20px}
+	#areaConhec .barConhec{font-size: 11px;}
+	#invest .pull-right{ padding: 0; width: 100% ;}
+	#areaConhec .barConhec .progress{height: 10px}
+	
+
+}
+@media (max-width: 767px) {
+	#conquer{width: 65%;}
+	#conquer img{width: 130px; margin-top: 15px}
+	header ul{display: none}
+	
+}
+@media (max-width: 695px) {
+	#areaConhec{width: 100%}
+	#areaConhec .barConhec{font-size: 14px;}
+	#areaConhec .barConhec .progress{height: 15px}
+	#conquer{width: 100%;}
+	#conquer img{width: 106px; margin-top: 15px}
+}
+
+@media (max-width: 640px) {
+	#conquer img{width: 103px; margin-top: 15px}
+}
+
+@media (max-width: 599px) {
+	.item{margin: 0 23%!important;}
+}
+@media (max-width: 479px) {
+	.item{margin: 0 13%!important;}
+}
+@media (min-width: 600px) and (max-width: 767px) {}
+@media (min-width: 598px) and (max-width: 599px) {}
+@media (min-width: 500px) and (max-width: 597px) {}
+@media (min-width: 400px) and (max-width: 499px) {}

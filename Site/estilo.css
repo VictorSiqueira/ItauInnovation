@@ -1,0 +1,42 @@
+*{padding: 0; margin:0}
+body{background: #e5e5e5;}
+
+header{background: #fff;}
+header ul {}
+header ul li{height: 40px; padding-top:10px; padding-bottom: 10px; top:0; margin: 0 5px}
+header ul li:first-child{height: auto;}
+
+.navbar-toggle .icon-bar{background: #ABA2A2}
+
+#areaConhec{ width: 360px;}
+#conquer img{width: 200px;}
+
+.wid100{width: 100%}
+.cxBranca{background: #fff; border-radius: 10px; margin: 10px 0; padding: 10px 10px;display: table}
+.circLaranja{border-radius: 50%; background: #FF4000; color: #fff; padding: 10px; text-align:center;}
+.circMed{margin-left: -50px; margin-top: 30px; font-size: 30px;}
+.taskTop{font-size: 9px; width:35px; padding:5px}
+.exp{font-size:10px;color:#ccc;letter-spacing:-1px;}
+.logo{padding: 8px}
+
+
+.btnCont{background:#6fdb6f; color:#fff	;}
+.btnMis{border: 1px solid #ccc}
+
+.title{font-size: 24px};
+.subs{font-size: 18px};
+.txt{font-size:14px};
+.font-branca{color:#fff!important}
+
+.progress{margin-bottom: 0}
+.progresso{padding:10px; background:#e5e5e5;margin-bottom:10px;}
+
+.sidebar-nav span{display: block; float: right;text-align: center; padding: 0 10px; height: 26px; margin-top: 8px; line-height: 26px;border-radius: 5px; color: #fff;}
+.sidebar-nav span.laranja{background: #FF4000}
+.sidebar-nav span.gold{background: #FFDB00}
+.sidebar-nav li.sidebar-brand{width: 100%; height:150px;  background: url(http://www.quadrimcast.com.br/wp-content/uploads/2013/04/tumblr_l1iotoYo541qbn8c7.jpg) no-repeat; background-size: 100%}
+.sidebar-nav li.sidebar-brand a{color: #fff}
+
+#missoes img{width:200px;margin-left: 4%;}
+
+.imgProf{ border-radius:50%;display: block; width: 45px; height: 45px; background: url(http://www.quadrimcast.com.br/wp-content/uploads/2013/04/tumblr_l1iotoYo541qbn8c7.jpg) no-repeat; background-position: -86px -1px;background-size: 215px; }
