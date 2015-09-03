@@ -23,10 +23,15 @@
 	#areaConhec{width: 100%}
 }
 
+@media (min-width: 1200px) and (max-width: 1229px) {
+	header div ul{width: 65%!important;}
+}
 
+@media (min-width: 992px) and (max-width: 1200px) {
+	#missoes .col-md-9 { width: 72%;}
+}
 @media (min-width: 1022px) and (max-width: 1229px) {
 	#invest .pull-right{width:70%}
-
 	#conquer img{width: 190px;}
 }
 @media (min-width: 992px) and (max-width: 1021px) {
@@ -43,6 +48,7 @@
 	#areaConhec .barConhec .progress{height: 13px}
 	#invest .pull-right{ padding: 0; width: 60% ;}
 	#conquer img{width: 140px; margin-top: 15px}
+	#missoes img{width: 145px;}
 }
 
 @media (min-width: 600px) and (max-width: 798px) {
@@ -51,6 +57,8 @@
 	#areaConhec .barConhec{font-size: 11px;}
 	#invest .pull-right{ padding: 0; width: 100% ;}
 	#areaConhec .barConhec .progress{height: 10px}
+	#missoes img{width: 145px;}
+
 	
 
 }
@@ -77,6 +85,8 @@
 }
 @media (max-width: 479px) {
 	.item{margin: 0 13%!important;}
+	#missoes .col-xs-8{width:100%;}
+	#missoes img { width: 200px; margin-left: 16%;}
 }
 @media (min-width: 600px) and (max-width: 767px) {}
 @media (min-width: 598px) and (max-width: 599px) {}
