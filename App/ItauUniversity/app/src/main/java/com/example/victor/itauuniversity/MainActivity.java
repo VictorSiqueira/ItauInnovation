@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String url = "http://www.fiap.com.br";
+        String url = "http://victorsiqueira.esy.es/ItauUniversity/index.html";
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
 
 
