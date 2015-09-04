@@ -62,6 +62,10 @@
 	
 
 }
+@media (min-width: 768px) {
+	#sidebar-wrapper{display: none}
+	
+}
 @media (max-width: 767px) {
 	#conquer{width: 65%;}
 	#conquer img{width: 130px; margin-top: 15px}
@@ -88,6 +92,9 @@
 	#missoes .col-xs-8{width:100%;}
 	#missoes img { width: 200px; margin-left: 16%;}
 }
+@media (max-width: 479px) {
+    #missoes img {width: 144px; margin-left: 1%;}
+    }
 @media (min-width: 600px) and (max-width: 767px) {}
 @media (min-width: 598px) and (max-width: 599px) {}
 @media (min-width: 500px) and (max-width: 597px) {}

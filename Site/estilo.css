@@ -5,6 +5,7 @@ header{background: #fff;}
 header ul {}
 header ul li{height: 40px; padding-top:10px; padding-bottom: 10px; top:0; margin: 0 5px}
 header ul li:first-child{height: auto;}
+header ul li a, header ul li a:hover{color:#333; text-decoration: none}
 
 .navbar-toggle .icon-bar{background: #ABA2A2}
 
@@ -40,3 +41,4 @@ header ul li:first-child{height: auto;}
 #missoes img{width:200px;margin-left: 4%;}
 
 .imgProf{ border-radius:50%;display: block; width: 45px; height: 45px; background: url(http://www.quadrimcast.com.br/wp-content/uploads/2013/04/tumblr_l1iotoYo541qbn8c7.jpg) no-repeat; background-position: -86px -1px;background-size: 215px; }
+.star{background: url(https://cdn2.iconfinder.com/data/icons/diagona/icon/16/031.png)no-repeat;width: 16px; height: 16px; display: inline-block; margin:0;}
