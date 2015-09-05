@@ -86,6 +86,7 @@
 
 @media (max-width: 599px) {
 	.item{margin: 0 23%!important;}
+	#missoes img {width: 144px; margin-left: 1%;}
 }
 @media (max-width: 479px) {
 	.item{margin: 0 13%!important;}

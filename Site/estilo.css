@@ -42,3 +42,10 @@ header ul li a, header ul li a:hover{color:#333; text-decoration: none}
 
 .imgProf{ border-radius:50%;display: block; width: 45px; height: 45px; background: url(http://www.quadrimcast.com.br/wp-content/uploads/2013/04/tumblr_l1iotoYo541qbn8c7.jpg) no-repeat; background-position: -86px -1px;background-size: 215px; }
 .star{background: url(https://cdn2.iconfinder.com/data/icons/diagona/icon/16/031.png)no-repeat;width: 16px; height: 16px; display: inline-block; margin:0;}
+.btnComprarTbl{border-radius:50%;width:32px;}
+
+.statusMinhaAp{display: block; padding: 2%; color: #fff; text-align: center; border-radius: 4px}
+.bgVerde{background: #008215}
+.bgVerm{background: #fe2321}
+.bgAzul{background: #3fc6f1}
+.bgLaranj{background: #F28505}
