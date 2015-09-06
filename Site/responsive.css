@@ -1,7 +1,7 @@
 @-ms-viewport{ width: device-width;}
-@media (min-width: 1230px) {...}
+@media (min-width: 1230px) {}
 
-@media (min-width: 1022px) {...}
+@media (min-width: 1022px) {#divMapa{ width: 57%!important}}
 
 @media (max-width: 1021px) {...}
 
@@ -29,6 +29,7 @@
 
 @media (min-width: 992px) and (max-width: 1200px) {
 	#missoes .col-md-9 { width: 72%;}
+	#ActInvest .col-md-6{ width: 57%;}
 }
 @media (min-width: 1022px) and (max-width: 1229px) {
 	#invest .pull-right{width:70%}
@@ -64,6 +65,7 @@
 }
 @media (min-width: 768px) {
 	#sidebar-wrapper{display: none}
+
 	
 }
 @media (max-width: 767px) {
