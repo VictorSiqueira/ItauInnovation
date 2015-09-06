@@ -92,6 +92,7 @@
 	.item{margin: 0 13%!important;}
 	#missoes .col-xs-8{width:100%;}
 	#missoes img { width: 200px; margin-left: 16%;}
+	.infoActTbl{display: none}
 }
 @media (max-width: 479px) {
     #missoes img {width: 144px; margin-left: 1%;}
