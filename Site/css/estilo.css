@@ -66,10 +66,12 @@ header ul li a, header ul li a:hover{color:#333; text-decoration: none}
 /*---------LIGHT BOX---------*/
 #black_overlay{display: none;position: fixed;top: 0%;left: 0%;width: 100%;height: 100%;background-color: black;z-index:1001;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
 #black_overlay_nav{display: none;position: fixed;top: 0%;left: 0%;width: 100%;height: 100%;background-color: black;z-index:1001;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
-#white_content{display: none;position: absolute;top:25%;left:20%;width: 80%;min-width: 480px;max-width: 780px;margin: 0 auto;padding: 0px;background-color: white;z-index:1002;overflow: auto;}
-#white_content img{float: left;}
+#white_content{display: none;position: absolute;top:25%;left:20%;width: 80%;max-width: 780px;margin: 0 auto;padding: 0px;background-color: white;z-index:1002;overflow: auto;}
+
 #white_content .txt-lightbox{float:right; padding: 10px;width: 56%;}
 .over-toggle{display: block!important;z-index:10!important}
 
 .cheat{border-radius:10px;background:#F9F9F9;width:50%!important;left:25%!important;}
+.cheat .bgVerde{height:222px;}
+.cheat img{margin: 20%;width:100px;}
 .carousel-inner .item{padding:0 28%;}

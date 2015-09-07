@@ -15,6 +15,9 @@
 @media (max-width: 992px) {
 	.userRank{font-size:67px;}
 	.userMission,.userXP{font-size:38px	;}
+	.cheat{top: 11%; left: 12%!important; width: 70%!important}
+	.cheat .bgVerde{height: 124px;}
+	.cheat img{margin: 4% 42%; width: 57px;}
 	
 }
 
@@ -34,6 +37,7 @@
 @media (min-width: 992px) and (max-width: 1200px) {
 	#missoes .col-md-9 { width: 72%;}
 	#ActInvest .col-md-6{ width: 57%;}
+	.intro{top: 4%!important;left: 13%!important;}
 }
 
 @media (min-width: 1022px) and (max-width: 1229px) {
@@ -57,6 +61,7 @@
 	#invest .pull-right{ padding: 0; width: 60% ;}
 	#conquer img{width: 140px; margin-top: 15px}
 	#missoes img{width: 145px;}
+	.intro{top:4%!important;left: 0!important;width: 100%!important}
 }
 
 @media (min-width: 600px) and (max-width: 798px) {
@@ -76,6 +81,7 @@
 	#conquer{width: 65%;}
 	#conquer img{width: 130px; margin-top: 15px}
 	header ul{display: none}
+	.intro{width:100%!important; left: 0!important; top:0!important;}
 }
 
 @media (max-width: 695px) {
@@ -93,7 +99,12 @@
 @media (max-width: 599px) {
 	.item{margin: 0 23%!important;}
 	#missoes img {width: 144px; margin-left: 1%;}
+	.cheat{left: 7%!important; width: 80%!important}
+	.intro .item{padding: 0!important}
 }
+
+
+
 @media (max-width: 479px) {
 	.item{margin: 0 13%!important;}
 	#missoes .col-xs-8{width:100%;}
