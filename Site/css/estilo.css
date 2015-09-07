@@ -72,3 +72,4 @@ header ul li a, header ul li a:hover{color:#333; text-decoration: none}
 .over-toggle{display: block!important;z-index:10!important}
 
 .cheat{border-radius:10px;background:#F9F9F9;width:50%!important;left:25%!important;}
+.carousel-inner .item{padding:0 28%;}
