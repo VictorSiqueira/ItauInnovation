@@ -36,7 +36,7 @@
 					</ul>
 
 
-					<button id="menu-toggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="true">
+					<button  type="button" class="menu-toggle navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="true">
 	          <span class="sr-only">Toggle navigation</span>
 	          <span class="icon-bar"></span>
 	          <span class="icon-bar"></span>
@@ -317,6 +317,8 @@
 		</section>
 	</div>
 
+<div id="black_overlay_nav" class="menu-toggle" ></div>
+
  <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -327,14 +329,14 @@
                 </a>
             </li>
             <li style="none">Lvl  20 <span class="exp" style="color:#232323;">11170 &nbsp;EXP</span>
-								<div class="progress" style="height:5px;margin-left: 20px;">
-									  <div class="progress-bar" role="progressbar" aria-valuenow="70"
-									  aria-valuemin="0" aria-valuemax="100" style="width:70%; background:#00A65A;">
-									  </div>
-								  </div>
-							</li>
-							<hr>
-            <li>
+				<div class="progress" style="height:5px;margin-left: 20px;">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+					  aria-valuemin="0" aria-valuemax="100" style="width:70%; background:#00A65A;">
+					  </div>
+				  </div>
+			</li>
+			<hr>
+          <li>
               <a href="index.html">Dashboard <span class="laranja">1 task</span></a>
           </li>
           <li>
@@ -358,7 +360,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script>
-    $("#menu-toggle").click(function(e) {
+
+
+     $(".menu-toggle").click(function(e) {
+     	$('#black_overlay_nav').toggleClass("over-toggle");	
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });

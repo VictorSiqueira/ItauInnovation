@@ -270,6 +270,7 @@
 		</div>
 
 		<a href = "javascript:void(0)" onclick = "document.getElementById('white_content').style.display='none';document.getElementById('black_overlay').style.display='none'"><div id="black_overlay"></div></a>
+		
 		<div id="black_overlay_nav" class="menu-toggle" ></div>
 
  <!-- Sidebar -->
@@ -315,14 +316,14 @@
  <script>
 
  	$(document).ready(function(){
- 		$('#white_content').css("display","block");
  		$('#black_overlay').css("display","block");
+ 		$('#white_content').css("display","block");
  	});
 
      $(".menu-toggle").click(function(e) {
+     	$('#black_overlay_nav').toggleClass("over-toggle");	
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
-        $('#black_overlay_nav').toggleClass("over-toggle");	
     });
     </script>
 </html>
