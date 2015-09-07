@@ -56,3 +56,6 @@ header ul li a, header ul li a:hover{color:#333; text-decoration: none}
 .tree{margin-top:2% }
 .quadTree{width:25px;height: 25px;display: inline-block;margin: 0;text-align: center; padding-top:2px; color:#fff;}
 .tree img{margin-top:5% }
+
+.userRank{font-size:120px;}
+.userMission,.userXP{font-size:50px;}
