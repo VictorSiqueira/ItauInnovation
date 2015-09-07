@@ -1,5 +1,5 @@
 *{padding: 0; margin:0}
-body{background: #e5e5e5;}
+body{background: #e5e5e5; font-family: 'Open Sans', sans-serif;}
 
 header{background: #fff;}
 header ul {}
@@ -13,6 +13,8 @@ header ul li a, header ul li a:hover{color:#333; text-decoration: none}
 #conquer img{width: 200px;}
 
 .wid100{width: 100%}
+.no-padding{padding:0!important}
+
 .cxBranca{background: #fff; border-radius: 10px; margin: 10px 0; padding: 10px 10px;display: table}
 .circLaranja{border-radius: 50%; background: #FF4000; color: #fff; padding: 10px; text-align:center;}
 .circMed{margin-left: -50px; margin-top: 30px; font-size: 30px;}
@@ -50,3 +52,7 @@ header ul li a, header ul li a:hover{color:#333; text-decoration: none}
 .bgAzul{background: #3fc6f1}
 .bgLaranj{background: #F28505}
 #divMapa{display: block}
+
+.tree{margin-top:2% }
+.quadTree{width:25px;height: 25px;display: inline-block;margin: 0;text-align: center; padding-top:2px; color:#fff;}
+.tree img{margin-top:5% }
