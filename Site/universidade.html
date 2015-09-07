@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
-	<link rel="stylesheet" href="bootstrap.css">
-	<link rel="stylesheet" href="estilo.css">
-	<link rel="stylesheet" href="bars.css">
-	<link rel="stylesheet" href="responsive.css">
-	<link rel="stylesheet" href="sidebar.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/bars.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/sidebar.css">
 </head>
 <body>
 
@@ -233,18 +233,29 @@
 							</div>
 						</div>
 
-
-
-
-
-
-
-
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
+
+
+	<div id="white_content" class="cheat" style="display:block;">
+		<div class="col-md-4 bgVerde" style="display:block;height:42vh;">
+			<img src="img/.png">
+		</div>
+		<div class="col-md-8" style="">
+			<h1>CDB</h1>
+			<h3>Crédito de Depósito Bancário</h3>
+			<p>É um investimento de renda fixa, onde o valor é "emprestado"
+				ao banco(por exemplo), e o juros da cobrança é o rendimento
+				que será recebido pelo investidor</p>
+		</div>
+		<a href = "javascript:void(0)" onclick = "document.getElementById('white_content').style.display='none';document.getElementById('black_overlay').style.display='none'"><button class="btn btn-default pull-right" style="padding:1%; margin-right:2%;">Fechar</button></a>.
+	</div>
+
+	<a href = "javascript:void(0)" onclick = "document.getElementById('white_content').style.display='none';document.getElementById('black_overlay').style.display='none'"><div id="black_overlay"></div></a>
+		<div id="black_overlay_nav" class="menu-toggle" ></div>
 
  <!-- Sidebar -->
   <div id="sidebar-wrapper">
@@ -287,6 +298,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script>
+
+ 	$(document).ready(function(){
+ 		$('#white_content').css("display","block");
+ 		$('#black_overlay').css("display","block");
+ 	});
+
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
