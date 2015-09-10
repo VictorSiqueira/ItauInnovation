@@ -1,3 +1,4 @@
+<?php ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -19,12 +20,12 @@
 		<header>
 			<div class="row">
 				<div class="container">
-					<div class="logo col-md-2 col-xs-2"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+					<div class="logo col-md-2 col-xs-2"><a href="universidade.php"><img src="img/logo.png" alt=""></a></div>
 					<ul class="list-inline pull-right col-md-8">
 						<li class="circLaranja taskTop" >1 <br>Task</li>
-						<li class=""><a href="index.html"> Dashboard </a></li>
-						<li class=""><a href="investimentos.html"> Investimentos </a></li>
-						<li class=""><a href="universidade.html"> Universidade </a></li>
+						<li class=""><a href="index.php"> Dashboard </a></li>
+						<li class=""><a href="investimentos.php"> Investimentos </a></li>
+						<li class=""><a href="universidade.php"> Universidade </a></li>
 						<li class=""><a href="#"> Shop </a></li>
 						<li class=""><img src="img/coin.png">R$ 3.700</li>
 						<li style="none">Lvl  20 <span class="exp">11170 EXP</span>
@@ -34,7 +35,7 @@
 							  </div>
 						  </div>
 						</li>
-						<li class=""><a href="#"><div class="imgProf"></div></a></li>
+						<li class=""><a href="user.php"><div class="imgProf"></div></a></li>
 					</ul>
 
 
@@ -200,7 +201,7 @@
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a href="#">
+                <a href="user.php">
                 	<img src="" alt="">
                   User
                 </a>
@@ -214,13 +215,13 @@
 			</li>
 			<hr>
           <li>
-              <a href="index.html">Dashboard <span class="laranja">1 task</span></a>
+              <a href="index.php">Dashboard <span class="laranja">1 task</span></a>
           </li>
           <li>
-              <a href="investimentos.html">Investimentos<span class="gold">R$ 1.500</span></a>
+              <a href="investimentos.php">Investimentos<span class="gold">R$ 1.500</span></a>
           </li>
           <li>
-              <a href="universidade.html">Universidade</a>
+              <a href="universidade.php">Universidade</a>
           </li>
           <li>
               <a href="#">Shop</a>
